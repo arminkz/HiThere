@@ -1,9 +1,9 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
-import Hero from "@/components/Hero.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
   <Navbar/>
-  <Hero title="Shode !" subtitle="Ta sob sam mibashad!"/>
-</template>
+  <RouterView/>
+</template> 
