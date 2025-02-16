@@ -3,5 +3,5 @@ import JobListings from "@/components/JobListings.vue";
 </script>
 
 <template>
-    <JobListings/>
+    <JobListings limit="10"/>
 </template>
